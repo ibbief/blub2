@@ -1,0 +1,7 @@
+{
+  "parent": "mod:custom/blob_blower",
+  "textures": {
+    "0": "mod:blocks/a",
+    "particle": "mod:items/blobblaster"
+  }
+}

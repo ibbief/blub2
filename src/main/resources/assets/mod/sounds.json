@@ -1,0 +1,12 @@
+{
+  "ibdeath": {
+    "category": "neutral",
+    "subtitle": "subtitles.ibdeath",
+    "sounds": [
+      {
+        "name": "mod:reverb_fart_sound_effect",
+        "stream": false
+      }
+    ]
+  }
+}

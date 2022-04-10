@@ -1,0 +1,7 @@
+{
+  "parent": "mod:custom/blobbal",
+  "textures": {
+    "0": "mod:blocks/",
+    "particle": "mod:items/blob_ammo"
+  }
+}

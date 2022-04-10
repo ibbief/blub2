@@ -1,0 +1,269 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilkTouchEmeraldADV",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_touch_emerald_adv"
+    },
+    {
+      "name": "SilkTouchEmeraldsPCD",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_touch_emeralds_pcd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DkBarel",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dk_barel"
+    },
+    {
+      "name": "GeileBlob",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geile_blob"
+    },
+    {
+      "name": "BozeBadgastBarrie",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boze_badgast_barrie"
+    },
+    {
+      "name": "BarriesBrainBasher",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barries_brain_basher"
+    },
+    {
+      "name": "BarriesBrainBasherPCD",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barries_brain_basher_pcd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlobbusShootus",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobbus_shootus"
+    },
+    {
+      "name": "BlobAmmo",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blob_ammo"
+    },
+    {
+      "name": "BlobbusShootusProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobbus_shootus_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlobbusShootusProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobbus_shootus_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlobSpawnerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blob_spawner_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlobSpawner",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blob_spawner"
+    },
+    {
+      "name": "Biefuilding",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biefuilding"
+    },
+    {
+      "name": "GeileBlobOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geile_blob_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ibdeath",
+      "files": [
+        "reverb_fart_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": "Ib Bief dies"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.silk_touch_emerald_adv.descr": "Mine a chunk of emeralds with silk touch",
+      "entity.mod.geile_blob": "ib bief",
+      "advancements.silk_touch_emerald_adv.title": "5 Bread, Please",
+      "item.mod.blobbus_shootus": "Blob Blaster",
+      "item.mod.geile_blob_spawn_egg": "ib bief Spawn Egg",
+      "item.mod.blob_ammo": "Blob Ammo",
+      "block.mod.dk_barel": "Dk Barel",
+      "item.mod.barries_brain_basher": "Barries Brain Basher",
+      "block.mod.blob_spawner": "Blob Spawner",
+      "entity.mod.boze_badgast_barrie": "Boze Badgast Barrie",
+      "subtitles.ibdeath": "Ib Bief dies",
+      "item.mod.boze_badgast_barrie_spawn_egg": "Boze Badgast Barrie Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mod",
+    "modName": "MOD",
+    "version": "1.0.0",
+    "author": "salom, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

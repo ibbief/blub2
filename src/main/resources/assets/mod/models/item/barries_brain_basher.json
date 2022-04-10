@@ -1,0 +1,7 @@
+{
+  "parent": "mod:custom/schep",
+  "textures": {
+    "0": "mod:blocks/schep",
+    "particle": "mod:items/schep"
+  }
+}

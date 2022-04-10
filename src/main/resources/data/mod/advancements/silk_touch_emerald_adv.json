@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_ore"
+    },
+    "title": {
+      "translate": "advancements.silk_touch_emerald_adv.title"
+    },
+    "description": {
+      "translate": "advancements.silk_touch_emerald_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "silk_touch_emerald_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/trade"
+}

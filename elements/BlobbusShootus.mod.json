@@ -1,0 +1,45 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "blobblaster",
+    "customModelName": "blob_blower:default",
+    "name": "Blob Blaster",
+    "specialInfo": [
+      "Blast them to death"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1500,
+    "actionSound": {
+      "value": "entity.guardian.flop"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BlobAmmo"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "ballert.png",
+    "onBulletHitsBlock": {
+      "name": "BlobbusShootusProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "BlobbusShootusProjectileHitsLivingEntity"
+    }
+  }
+}
